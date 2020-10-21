@@ -2,6 +2,8 @@
 
 Nice mockup by [CodelyTV](https://codely.tv) coded with html and css.
 
+- [DEMO](https://christiandp7.github.io/codelytv-code_in_the_dark-challenge/).
+
 - You can take a look to my first try coded in 15 minutes **in the dark** in codepen: [https://codepen.io/christiandp7/pen/xxOEvLB](https://codepen.io/christiandp7/pen/xxOEvLB).
 
 - Gist of the challenge: [https://gist.github.com/nuria-fl/34b025742ac99487e06047b55e7432ab](https://gist.github.com/nuria-fl/34b025742ac99487e06047b55e7432ab).
