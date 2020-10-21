@@ -1,0 +1,146 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #34e37e;
+  --bg-color: #030f08;
+  --badge-bg-color: #111111;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Courier, monospace;
+}
+
+header {
+  background-color: var(--bg-color);
+  text-align: center;
+}
+.logo {
+  max-width: 200px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.title {
+  color: var(--primary-color);
+  font-size: 50px;
+  text-shadow: 0px 0px 8px rgba(52, 227, 126, 1),
+    0px 0px 5px rgba(52, 227, 126, 0.4);
+  font-weight: 700;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 18px 25px;
+  border-bottom: solid 2px var(--primary-color);
+}
+main {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  /*padding: 35px 0;*/
+  /*background-color: rgba(22, 95, 52, 0.5);*/
+  /*background-color: rgba(52, 227, 126, 0.5);*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("img/bg_wkcesn.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.badges-container {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.badge {
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
+.badge span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: solid 3px var(--primary-color);
+  border-right-width: 2px;
+  box-shadow: 0px 0px 5px 0 rgba(52, 227, 126, 0.8),
+    0px 0px 5px 0 rgba(52, 227, 126, 0.5);
+}
+.badge span svg {
+  fill: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.badge h5 {
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  top: 0;
+  right: -200%;
+  display: flex;
+  align-items: center;
+  border: solid 3px var(--primary-color);
+  border-left-width: 1px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 1.8rem;
+  background-color: var(--badge-bg-color);
+  line-height: 1.2;
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 5px 0 rgba(52, 227, 126, 0.8),
+    0px 0px 5px 0 rgba(52, 227, 126, 0.5);
+}
+.badge:nth-child(4n-2) h5 {
+  left: -200%;
+  border-left-width: 3px;
+  border-right-width: 1px;
+}
+.badge:nth-child(4n-2) span {
+  left: -200%;
+  border-left-width: 3px;
+  border-right-width: 2px;
+}
+/*.badge:nth-child(4n-2) {
+  align-self: flex-start;
+}
+.badge:nth-child(4n-2) span {
+  order: 1;
+}*/
+button {
+  display: block;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  background: var(--badge-bg-color);
+  border: solid 2px var(--primary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  padding: 12px 50px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 5px 0 rgba(52, 227, 126, 0.8),
+    0px 0px 5px 0 rgba(52, 227, 126, 0.5);
+  transition: all 0.3s ease;
+}
+button:hover,
+button:active {
+  border: solid 2px var(--primary-color);
+  box-shadow: 0px 0px 15px 0 rgba(52, 227, 126, 0.8),
+    0px 0px 8px 0 rgba(52, 227, 126, 0.6);
+}
