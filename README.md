@@ -1,6 +1,6 @@
 # CodelyTV #CodeInTheDark Challenge
 
-Nice mockup by [CodelyTV](https://codely.tv) coded with css.
+Nice mockup by [CodelyTV](https://codely.tv) coded with html and css.
 
 - You can take a look to my first try coded in 15 minutes **in the dark** in codepen: [https://codepen.io/christiandp7/pen/xxOEvLB](https://codepen.io/christiandp7/pen/xxOEvLB).
 
